@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "minerology:block/shale_plate_brick_pressure_plate"
+    },
+    "powered=true": {
+      "model": "minerology:block/shale_plate_brick_pressure_plate_down"
+    }
+  }
+}

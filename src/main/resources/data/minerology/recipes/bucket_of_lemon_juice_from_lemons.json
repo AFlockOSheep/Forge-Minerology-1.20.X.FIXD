@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:bucket"
+    },
+    "L": {
+      "item": "minerology:lemon"
+    }
+  },
+  "pattern": [
+    "LLL",
+    "L#L",
+    "LLL"
+  ],
+  "result": {
+    "item": "minerology:bucket_of_lemon_juice"
+  },
+  "show_notification": true
+}

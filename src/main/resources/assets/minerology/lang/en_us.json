@@ -1,0 +1,56 @@
+{
+  "item.minerology.data_crystal": "Data Crystal",
+  "item.minerology.rock_chisel": "Rock Chisel",
+  "item.minerology.sledgehammer": "Sledgehammer",
+  "item.minerology.rock_pick": "Rock Pick",
+  "item.minerology.shale_plate": "Shale Plate",
+  "item.minerology.ruby_hq": "High Quality Ruby",
+  "item.minerology.ruby_lq": "Low Quality Ruby",
+  "item.minerology.metal_detector": "Metal Detector",
+  "item.minerology.lemon": "Lemon",
+  "item.minerology.lemon_seeds": "Lemon Seeds",
+  "item.minerology.bucket_of_lemon_juice": "Bucket Of Lemon Juice",
+  "item.minerology.bucket_of_citric_acid": "Bucket Of Citric Acid",
+
+  "block.minerology.shale_block": "Shale",
+  "block.minerology.shale_block_nodule": "Shale Nodule Block",
+  "block.minerology.ruby_ore": "Ruby Ore",
+  "block.minerology.sound_block": "Sound Block",
+
+  "block.minerology.marble_block": "Marble",
+  "block.minerology.marble_stairs": "Marble Stairs",
+  "block.minerology.marble_slab": "Marble Slab",
+  "block.minerology.marble_wall": "Marble Wall",
+  "block.minerology.marble_pressure_plate": "Marble Pressure Plate",
+  "block.minerology.marble_button": "Marble Button",
+
+  "block.minerology.polished_marble_block": "Polished Marble",
+  "block.minerology.polished_marble_stairs": "Polished Marble Stairs",
+  "block.minerology.polished_marble_slab": "Polished Marble Slab",
+  "block.minerology.polished_marble_wall": "Polished Marble Wall",
+  "block.minerology.polished_marble_pressure_plate": "Polished Marble Pressure Plate",
+  "block.minerology.polished_marble_button": "Polished Marble Button",
+
+  "block.minerology.polished_marble_brick": "Polished Marble Brick",
+  "block.minerology.polished_marble_brick_stairs": "Polished Marble Brick Stairs",
+  "block.minerology.polished_marble_brick_slab": "Polished Marble Brick Slab",
+  "block.minerology.polished_marble_brick_wall": "Polished Marble Brick Wall",
+  "block.minerology.polished_marble_brick_pressure_plate": "Polished Marble Brick Pressure Plate",
+  "block.minerology.polished_marble_brick_button": "Polished Marble Brick Button",
+
+  "block.minerology.shale_plate_brick": "Shale Plate Brick",
+  "block.minerology.shale_plate_brick_stairs": "Shale Plate Brick Stairs",
+  "block.minerology.shale_plate_brick_slab": "Shale Plate Brick Slab",
+  "block.minerology.shale_plate_brick_wall": "Shale Plate Brick Wall",
+  "block.minerology.shale_plate_brick_pressure_plate": "Shale Plate Brick Pressure Plate",
+  "block.minerology.shale_plate_brick_button": "Shale Plate Brick Button",
+
+
+
+
+
+  "tooltip.minerology.metal_detector.tooltip": "Finds valuables underground",
+
+
+  "creativetab.minerology_tab": "Minerology"
+}

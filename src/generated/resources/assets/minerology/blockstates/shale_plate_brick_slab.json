@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minerology:block/shale_plate_brick_slab"
+    },
+    "type=double": {
+      "model": "minerology:block/shale_plate_brick"
+    },
+    "type=top": {
+      "model": "minerology:block/shale_plate_brick_slab_top"
+    }
+  }
+}

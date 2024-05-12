@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minerology:item/bucket_of_citric_acid"
+  }
+}

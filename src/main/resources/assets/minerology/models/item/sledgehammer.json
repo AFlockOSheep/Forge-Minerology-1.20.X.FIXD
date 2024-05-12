@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "minerology:item/sledgehammer_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "minerology:item/sledgehammer_2d"
+    },
+    "ground": {
+      "parent": "minerology:item/sledgehammer_3d"
+    },
+    "fixed": {
+      "parent": "minerology:item/sledgehammer_3d"
+    }
+  }
+}

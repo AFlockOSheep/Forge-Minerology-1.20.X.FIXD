@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "minerology:block/shale_plate_brick",
+    "side": "minerology:block/shale_plate_brick",
+    "top": "minerology:block/shale_plate_brick"
+  }
+}

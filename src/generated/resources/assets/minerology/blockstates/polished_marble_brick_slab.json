@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minerology:block/polished_marble_brick_slab"
+    },
+    "type=double": {
+      "model": "minerology:block/polished_marble_brick"
+    },
+    "type=top": {
+      "model": "minerology:block/polished_marble_brick_slab_top"
+    }
+  }
+}
