@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_polished_marble_brick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minerology:polished_marble_brick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stonecutting_slab_polished_marble_brick_from_polished_marble_brick"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_marble_brick",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stonecutting_slab_polished_marble_brick_from_polished_marble_brick"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minerology:shale_plate_brick"
+  },
+  "result": "minerology:shale_plate_brick_wall"
+}
