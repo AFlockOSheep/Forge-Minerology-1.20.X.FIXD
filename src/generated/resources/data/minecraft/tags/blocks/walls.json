@@ -3,6 +3,8 @@
     "minerology:marble_wall",
     "minerology:polished_marble_wall",
     "minerology:polished_marble_brick_wall",
-    "minerology:shale_plate_brick_wall"
+    "minerology:shale_plate_brick_wall",
+    "minerology:quartzite_wall",
+    "minerology:gneiss_wall"
   ]
 }

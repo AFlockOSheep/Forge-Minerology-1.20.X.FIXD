@@ -118,6 +118,41 @@ public class ModBlocks {
     public static final RegistryObject<Block> SHALE_PLATE_BRICK_WALL = registerBlock("shale_plate_brick_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.NETHER_BRICKS)));
 
+    //QUARTZITE
+    public static final RegistryObject<Block> QUARTZITE_BLOCK = registerBlock("quartzite_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));
+    public static final RegistryObject<Block> QUARTZITE_STAIRS = registerBlock("quartzite_stairs",
+            () -> new StairBlock(() -> ModBlocks.QUARTZITE_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));
+    public static final RegistryObject<Block> QUARTZITE_SLAB = registerBlock("quartzite_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));
+    public static final RegistryObject<Block> QUARTZITE_BUTTON = registerBlock("quartzite_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.TUFF),
+                    BlockSetType.IRON, 10, true));
+    public static final RegistryObject<Block> QUARTZITE_PRESSURE_PLATE = registerBlock("quartzite_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,
+                    BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF),
+                    BlockSetType.IRON));
+    public static final RegistryObject<Block> QUARTZITE_WALL = registerBlock("quartzite_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));
+
+    //GNEISS
+    public static final RegistryObject<Block> GNEISS_BLOCK = registerBlock("gneiss_block",
+            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));
+    public static final RegistryObject<Block> GNEISS_STAIRS = registerBlock("gneiss_stairs",
+            () -> new StairBlock(() -> ModBlocks.GNEISS_BLOCK.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));
+    public static final RegistryObject<Block> GNEISS_SLAB = registerBlock("gneiss_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));
+    public static final RegistryObject<Block> GNEISS_BUTTON = registerBlock("gneiss_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.TUFF),
+                    BlockSetType.IRON, 10, true));
+    public static final RegistryObject<Block> GNEISS_PRESSURE_PLATE = registerBlock("gneiss_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,
+                    BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF),
+                    BlockSetType.IRON));
+    public static final RegistryObject<Block> GNEISS_WALL = registerBlock("gneiss_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));
 
 
 

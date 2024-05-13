@@ -57,6 +57,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.SHALE_PLATE_BRICK_PRESSURE_PLATE);
         buttonItem(ModBlocks.SHALE_PLATE_BRICK_BUTTON, ModBlocks.SHALE_PLATE_BRICK);
         wallItem(ModBlocks.SHALE_PLATE_BRICK_WALL, ModBlocks.SHALE_PLATE_BRICK);
+        
+        simpleBlockItem(ModBlocks.QUARTZITE_STAIRS);
+        simpleBlockItem(ModBlocks.QUARTZITE_SLAB);
+        simpleBlockItem(ModBlocks.QUARTZITE_PRESSURE_PLATE);
+        buttonItem(ModBlocks.QUARTZITE_BUTTON, ModBlocks.QUARTZITE_BLOCK);
+        wallItem(ModBlocks.QUARTZITE_WALL, ModBlocks.QUARTZITE_BLOCK);
+
+        simpleBlockItem(ModBlocks.GNEISS_STAIRS);
+        simpleBlockItem(ModBlocks.GNEISS_SLAB);
+        simpleBlockItem(ModBlocks.GNEISS_PRESSURE_PLATE);
+        buttonItem(ModBlocks.GNEISS_BUTTON, ModBlocks.GNEISS_BLOCK);
+        wallItem(ModBlocks.GNEISS_WALL, ModBlocks.GNEISS_BLOCK);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

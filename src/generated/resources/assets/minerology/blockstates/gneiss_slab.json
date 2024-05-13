@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minerology:block/gneiss_slab"
+    },
+    "type=double": {
+      "model": "minerology:block/gneiss_block"
+    },
+    "type=top": {
+      "model": "minerology:block/gneiss_slab_top"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minerology:gneiss_block"
+  },
+  "result": "minerology:gneiss_wall"
+}

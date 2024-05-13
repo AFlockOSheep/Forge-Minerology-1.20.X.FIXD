@@ -3,6 +3,8 @@
     "minerology:shale_block",
     "minerology:shale_block_nodule",
     "minerology:ruby_ore",
-    "minerology:marble_block"
+    "minerology:marble_block",
+    "minerology:gneiss_block",
+    "minerology:quartzite_block"
   ]
 }

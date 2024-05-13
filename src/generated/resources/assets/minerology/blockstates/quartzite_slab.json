@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minerology:block/quartzite_slab"
+    },
+    "type=double": {
+      "model": "minerology:block/quartzite_block"
+    },
+    "type=top": {
+      "model": "minerology:block/quartzite_slab_top"
+    }
+  }
+}

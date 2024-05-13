@@ -73,6 +73,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 ModBlocks.POLISHED_MARBLE_BRICK_WALL, pWriter);
         generateStonecuttingRecipes("polished_marble_brick_from_polished_marble_brick", "polished_marble_brick", ModBlocks.POLISHED_MARBLE_BRICK, ModBlocks.POLISHED_MARBLE_BRICK_STAIRS,
                 ModBlocks.POLISHED_MARBLE_BRICK_SLAB, ModBlocks.POLISHED_MARBLE_BRICK_WALL, pWriter);
+
+        generateStoneProductRecipes(ModBlocks.QUARTZITE_BLOCK, ModBlocks.QUARTZITE_STAIRS, ModBlocks.QUARTZITE_SLAB, ModBlocks.QUARTZITE_BUTTON,
+                ModBlocks.QUARTZITE_PRESSURE_PLATE, ModBlocks.QUARTZITE_WALL, pWriter);
+        generateStonecuttingRecipes("quartzite_from_quartzite", "quartzite_block", ModBlocks.QUARTZITE_BLOCK, ModBlocks.QUARTZITE_STAIRS,
+                ModBlocks.QUARTZITE_SLAB, ModBlocks.QUARTZITE_WALL, pWriter);
+
+        generateStoneProductRecipes(ModBlocks.GNEISS_BLOCK, ModBlocks.GNEISS_STAIRS, ModBlocks.GNEISS_SLAB, ModBlocks.GNEISS_BUTTON,
+                ModBlocks.GNEISS_PRESSURE_PLATE, ModBlocks.GNEISS_WALL, pWriter);
+        generateStonecuttingRecipes("gneiss_from_gneiss", "gneiss_block", ModBlocks.GNEISS_BLOCK, ModBlocks.GNEISS_STAIRS,
+                ModBlocks.GNEISS_SLAB, ModBlocks.GNEISS_WALL, pWriter);
         
 
 
@@ -117,8 +127,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('S', base.get())
                 .unlockedBy(getHasName(base.get()), has(base.get()))
                 .save(pWriter);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, button.get(), 1)
                 .unlockedBy(getHasName(base.get()), has(base.get()))
+                .requires(Ingredient.of(base.get()))
                 .save(pWriter);
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, pressurePlate.get(), 1)
                 .pattern("SS")

@@ -49,6 +49,12 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         generateStoneBlockDrops(ModBlocks.SHALE_PLATE_BRICK, ModBlocks.SHALE_PLATE_BRICK_STAIRS, ModBlocks.SHALE_PLATE_BRICK_SLAB, ModBlocks.SHALE_PLATE_BRICK_BUTTON,
                 ModBlocks.SHALE_PLATE_BRICK_PRESSURE_PLATE, ModBlocks.SHALE_PLATE_BRICK_WALL);
 
+        generateStoneBlockDrops(ModBlocks.QUARTZITE_BLOCK, ModBlocks.QUARTZITE_STAIRS, ModBlocks.QUARTZITE_SLAB, ModBlocks.QUARTZITE_BUTTON,
+                ModBlocks.QUARTZITE_PRESSURE_PLATE, ModBlocks.QUARTZITE_WALL);
+
+        generateStoneBlockDrops(ModBlocks.GNEISS_BLOCK, ModBlocks.GNEISS_STAIRS, ModBlocks.GNEISS_SLAB, ModBlocks.GNEISS_BUTTON,
+                ModBlocks.GNEISS_PRESSURE_PLATE, ModBlocks.GNEISS_WALL);
+
     }
 
     protected void generateStoneBlockDrops(RegistryObject<Block> baseBlock,

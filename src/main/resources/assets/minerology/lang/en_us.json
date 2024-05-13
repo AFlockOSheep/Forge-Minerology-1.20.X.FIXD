@@ -45,6 +45,20 @@
   "block.minerology.shale_plate_brick_pressure_plate": "Shale Plate Brick Pressure Plate",
   "block.minerology.shale_plate_brick_button": "Shale Plate Brick Button",
 
+  "block.minerology.quartzite_block": "Quartzite Block",
+  "block.minerology.quartzite_stairs": "Quartzite Stairs",
+  "block.minerology.quartzite_slab": "Quartzite Slab",
+  "block.minerology.quartzite_wall": "Quartzite Wall",
+  "block.minerology.quartzite_pressure_plate": "Quartzite Pressure Plate",
+  "block.minerology.quartzite_button": "Quartzite Button",
+
+  "block.minerology.gneiss_block": "Gneiss Block",
+  "block.minerology.gneiss_stairs": "Gneiss Stairs",
+  "block.minerology.gneiss_slab": "Gneiss Slab",
+  "block.minerology.gneiss_wall": "Gneiss Wall",
+  "block.minerology.gneiss_pressure_plate": "Gneiss Pressure Plate",
+  "block.minerology.gneiss_button": "Gneiss Button",
+
 
 
 

@@ -23,7 +23,10 @@ public class ModBlockstateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.POLISHED_MARBLE_BLOCK);
         blockWithItem(ModBlocks.POLISHED_MARBLE_BRICK);
         blockWithItem(ModBlocks.SHALE_PLATE_BRICK);
+        blockWithItem(ModBlocks.QUARTZITE_BLOCK);
         blockWithItem(ModBlocks.SOUND_BLOCK);
+
+
 
         createCubeBottomTopWithItem(ModBlocks.SHALE_BLOCK, "shale");
         createCubeBottomTopWithItem(ModBlocks.SHALE_BLOCK_NODULE, "shale_nodule");
@@ -36,6 +39,10 @@ public class ModBlockstateProvider extends BlockStateProvider {
                 ModBlocks.POLISHED_MARBLE_BRICK_PRESSURE_PLATE, ModBlocks.POLISHED_MARBLE_BRICK_WALL);
         generateStoneBlocks(ModBlocks.SHALE_PLATE_BRICK, ModBlocks.SHALE_PLATE_BRICK_STAIRS, ModBlocks.SHALE_PLATE_BRICK_SLAB, ModBlocks.SHALE_PLATE_BRICK_BUTTON,
                 ModBlocks.SHALE_PLATE_BRICK_PRESSURE_PLATE, ModBlocks.SHALE_PLATE_BRICK_WALL);
+        generateStoneBlocks(ModBlocks.QUARTZITE_BLOCK, ModBlocks.QUARTZITE_STAIRS, ModBlocks.QUARTZITE_SLAB, ModBlocks.QUARTZITE_BUTTON,
+                ModBlocks.QUARTZITE_PRESSURE_PLATE, ModBlocks.QUARTZITE_WALL);
+        generateStoneBlocks(ModBlocks.GNEISS_BLOCK, ModBlocks.GNEISS_STAIRS, ModBlocks.GNEISS_SLAB, ModBlocks.GNEISS_BUTTON,
+                ModBlocks.GNEISS_PRESSURE_PLATE, ModBlocks.GNEISS_WALL);
         
     }
 
@@ -65,6 +72,5 @@ public class ModBlockstateProvider extends BlockStateProvider {
                 modLoc("block/" + blockName + "_bottom"),
                 modLoc("block/" + blockName + "_top")));
     }
-
 
 }

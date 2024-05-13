@@ -1,7 +1,12 @@
-// 1.20.1	2024-05-10T11:59:04.585427	Item Models: minerology
+// 1.20.1	2024-05-13T00:36:49.3779607	Item Models: minerology
 8c547bdd227a536c52c628382b7033f0a8b2d28b assets/minerology/models/item/bucket_of_citric_acid.json
 09ab40dab0a9afda936f0e1fc8307f67b1e99125 assets/minerology/models/item/bucket_of_lemon_juice.json
 81cc42d11ce58115afe794e1c469f43b4a0d9389 assets/minerology/models/item/data_crystal.json
+50a38945acc52056b504a910511409b4345fcfe1 assets/minerology/models/item/gneiss_button.json
+45386635b3790fd123ad82f1b142270d9ec13b1d assets/minerology/models/item/gneiss_pressure_plate.json
+43bf1bcf76707430001645174ae211c41cf341ef assets/minerology/models/item/gneiss_slab.json
+c0170f1b8ab92169c4b6b34dbe74b5c280f6631c assets/minerology/models/item/gneiss_stairs.json
+95c7561b53d658cd6d9d259167d399a0a54eaa5f assets/minerology/models/item/gneiss_wall.json
 06679fd7dff6f0d0e4c1403e6488bb58c442c48b assets/minerology/models/item/lemon.json
 855661a58c049935b6051d5da90f80631074d405 assets/minerology/models/item/lemon_seeds.json
 37083bf62ecbd17bb106ee0c7ae648f16bf7e661 assets/minerology/models/item/marble_button.json
@@ -20,6 +25,11 @@ b09cae7fb7d23248f5beba228ae1f7334f55a2ec assets/minerology/models/item/polished_
 69458eb6b481c14bc3803f827493be932865983e assets/minerology/models/item/polished_marble_slab.json
 a9521500d16008b3a18c19615952b3adf99abc4c assets/minerology/models/item/polished_marble_stairs.json
 91e82e53bbd7f7d79d390bb5b381a867d3111fc5 assets/minerology/models/item/polished_marble_wall.json
+4767faa98a5379cd6a4649e921424f24bd127e5c assets/minerology/models/item/quartzite_button.json
+9efb0ccbec5783e28922f7bb26ef3475fa4345a6 assets/minerology/models/item/quartzite_pressure_plate.json
+16adfb8ef3673661b6071f0621af69cbd8b2afad assets/minerology/models/item/quartzite_slab.json
+c91b518ee660a28f573d2594d7af7620436ba10f assets/minerology/models/item/quartzite_stairs.json
+e67dc0b45466e66a4ce7267741f05d181d750d71 assets/minerology/models/item/quartzite_wall.json
 7dee415c10f9ef1212861ebcd727c91587fa7c54 assets/minerology/models/item/ruby_hq.json
 9bc9e26d44534763a45ec07fddafc6be87f958d5 assets/minerology/models/item/ruby_lq.json
 39640895fa537017e200ade37879c0cc5b486dcc assets/minerology/models/item/shale_plate.json

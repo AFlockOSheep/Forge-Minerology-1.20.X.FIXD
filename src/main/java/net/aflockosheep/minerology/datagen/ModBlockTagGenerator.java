@@ -27,16 +27,20 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.RUBY_ORE.get())
                 .add(ModBlocks.SHALE_BLOCK_NODULE.get());
         this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.MARBLE_BLOCK.get())
+                .add(ModBlocks.GNEISS_BLOCK.get())
+                .add(ModBlocks.QUARTZITE_BLOCK.get())
                 .add(ModBlocks.RUBY_ORE.get()).addTag(Tags.Blocks.ORES);
-        this.tag(BlockTags.NEEDS_STONE_TOOL);
+        this.tag(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.MARBLE_BLOCK.get());
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL);
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.SHALE_BLOCK.get())
                 .add(ModBlocks.SHALE_BLOCK_NODULE.get())
                 .add(ModBlocks.RUBY_ORE.get())
-                .add(ModBlocks.MARBLE_BLOCK.get());
+                .add(ModBlocks.MARBLE_BLOCK.get())
+                .add(ModBlocks.GNEISS_BLOCK.get())
+                .add(ModBlocks.QUARTZITE_BLOCK.get());
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL);
 
@@ -47,7 +51,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.MARBLE_WALL.get())
                 .add(ModBlocks.POLISHED_MARBLE_WALL.get())
                 .add(ModBlocks.POLISHED_MARBLE_BRICK_WALL.get())
-                .add(ModBlocks.SHALE_PLATE_BRICK_WALL.get());
+                .add(ModBlocks.SHALE_PLATE_BRICK_WALL.get())
+                .add(ModBlocks.QUARTZITE_WALL.get())
+                .add(ModBlocks.GNEISS_WALL.get());
 
     }
 }
