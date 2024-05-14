@@ -50,7 +50,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.POLISHED_MARBLE_BRICK_WALL.get())
                 .add(ModBlocks.SHALE_PLATE_BRICK_WALL.get())
                 .add(ModBlocks.QUARTZITE_WALL.get())
-                .add(ModBlocks.BANDED_GNEISS_WALL.get());
+                .add(ModBlocks.BANDED_GNEISS_WALL.get())
+                .add(ModBlocks.GNEISS_WALL.get())
+                .add(ModBlocks.POLISHED_GNEISS_WALL.get())
+                .add(ModBlocks.GNEISS_BRICK_WALL.get());
 
     }
 }

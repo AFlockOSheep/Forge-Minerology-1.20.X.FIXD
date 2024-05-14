@@ -50,6 +50,14 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         generateStoneBlockDrops(ModBlocks.BANDED_GNEISS_BLOCK, ModBlocks.BANDED_GNEISS_STAIRS, ModBlocks.BANDED_GNEISS_SLAB, ModBlocks.BANDED_GNEISS_BUTTON,
                 ModBlocks.BANDED_GNEISS_PRESSURE_PLATE, ModBlocks.BANDED_GNEISS_WALL);
 
+        generateStoneBlockDrops(ModBlocks.GNEISS_BLOCK, ModBlocks.GNEISS_STAIRS, ModBlocks.GNEISS_SLAB, ModBlocks.GNEISS_BUTTON,
+                ModBlocks.GNEISS_PRESSURE_PLATE, ModBlocks.GNEISS_WALL);
+
+        generateStoneBlockDrops(ModBlocks.POLISHED_GNEISS_BLOCK, ModBlocks.POLISHED_GNEISS_STAIRS, ModBlocks.POLISHED_GNEISS_SLAB, ModBlocks.POLISHED_GNEISS_BUTTON,
+                ModBlocks.POLISHED_GNEISS_PRESSURE_PLATE, ModBlocks.POLISHED_GNEISS_WALL);
+
+        generateStoneBlockDrops(ModBlocks.GNEISS_BRICK, ModBlocks.GNEISS_BRICK_STAIRS, ModBlocks.GNEISS_BRICK_SLAB, ModBlocks.GNEISS_BRICK_BUTTON,
+                ModBlocks.GNEISS_BRICK_PRESSURE_PLATE, ModBlocks.GNEISS_BRICK_WALL);
     }
 
     protected void generateStoneBlockDrops(RegistryObject<Block> baseBlock,

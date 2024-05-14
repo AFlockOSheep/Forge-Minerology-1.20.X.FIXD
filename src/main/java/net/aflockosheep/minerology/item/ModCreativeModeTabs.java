@@ -75,6 +75,27 @@ ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.BANDED_GNEISS_BUTTON.get());
                         pOutput.accept(ModBlocks.BANDED_GNEISS_PRESSURE_PLATE.get());
                         pOutput.accept(ModBlocks.BANDED_GNEISS_WALL.get());
+
+                        pOutput.accept(ModBlocks.GNEISS_BLOCK.get());
+                        pOutput.accept(ModBlocks.GNEISS_STAIRS.get());
+                        pOutput.accept(ModBlocks.GNEISS_SLAB.get());
+                        pOutput.accept(ModBlocks.GNEISS_BUTTON.get());
+                        pOutput.accept(ModBlocks.GNEISS_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.GNEISS_WALL.get());
+
+                        pOutput.accept(ModBlocks.POLISHED_GNEISS_BLOCK.get());
+                        pOutput.accept(ModBlocks.POLISHED_GNEISS_STAIRS.get());
+                        pOutput.accept(ModBlocks.POLISHED_GNEISS_SLAB.get());
+                        pOutput.accept(ModBlocks.POLISHED_GNEISS_BUTTON.get());
+                        pOutput.accept(ModBlocks.POLISHED_GNEISS_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.POLISHED_GNEISS_WALL.get());
+
+                        pOutput.accept(ModBlocks.GNEISS_BRICK.get());
+                        pOutput.accept(ModBlocks.GNEISS_BRICK_STAIRS.get());
+                        pOutput.accept(ModBlocks.GNEISS_BRICK_SLAB.get());
+                        pOutput.accept(ModBlocks.GNEISS_BRICK_BUTTON.get());
+                        pOutput.accept(ModBlocks.GNEISS_BRICK_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.GNEISS_BRICK_WALL.get());
                         
                         pOutput.accept(ModBlocks.RUBY_ORE.get());
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "minerology:gneiss_brick"
+    }
+  },
+  "pattern": [
+    "SS"
+  ],
+  "result": {
+    "item": "minerology:gneiss_brick_pressure_plate"
+  },
+  "show_notification": true
+}

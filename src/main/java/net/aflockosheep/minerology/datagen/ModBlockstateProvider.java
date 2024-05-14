@@ -21,6 +21,11 @@ public class ModBlockstateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.POLISHED_MARBLE_BRICK);
         blockWithItem(ModBlocks.SHALE_PLATE_BRICK);
         blockWithItem(ModBlocks.QUARTZITE_BLOCK);
+        blockWithItem(ModBlocks.GNEISS_BLOCK);
+        blockWithItem(ModBlocks.POLISHED_GNEISS_BLOCK);
+        blockWithItem(ModBlocks.GNEISS_BRICK);
+
+
         blockWithItem(ModBlocks.SOUND_BLOCK);
 
 
@@ -40,7 +45,13 @@ public class ModBlockstateProvider extends BlockStateProvider {
                 ModBlocks.QUARTZITE_PRESSURE_PLATE, ModBlocks.QUARTZITE_WALL);
         generateStoneBlocks(ModBlocks.BANDED_GNEISS_BLOCK, ModBlocks.BANDED_GNEISS_STAIRS, ModBlocks.BANDED_GNEISS_SLAB, ModBlocks.BANDED_GNEISS_BUTTON,
                 ModBlocks.BANDED_GNEISS_PRESSURE_PLATE, ModBlocks.BANDED_GNEISS_WALL);
-        
+        generateStoneBlocks(ModBlocks.GNEISS_BLOCK, ModBlocks.GNEISS_STAIRS, ModBlocks.GNEISS_SLAB, ModBlocks.GNEISS_BUTTON,
+                ModBlocks.GNEISS_PRESSURE_PLATE, ModBlocks.GNEISS_WALL);
+        generateStoneBlocks(ModBlocks.POLISHED_GNEISS_BLOCK, ModBlocks.POLISHED_GNEISS_STAIRS, ModBlocks.POLISHED_GNEISS_SLAB, ModBlocks.POLISHED_GNEISS_BUTTON,
+                ModBlocks.POLISHED_GNEISS_PRESSURE_PLATE, ModBlocks.POLISHED_GNEISS_WALL);
+        generateStoneBlocks(ModBlocks.GNEISS_BRICK, ModBlocks.GNEISS_BRICK_STAIRS, ModBlocks.GNEISS_BRICK_SLAB, ModBlocks.GNEISS_BRICK_BUTTON,
+                ModBlocks.GNEISS_BRICK_PRESSURE_PLATE, ModBlocks.GNEISS_BRICK_WALL);
+
     }
 
     private void generateStoneBlocks(RegistryObject<Block> baseBlock,

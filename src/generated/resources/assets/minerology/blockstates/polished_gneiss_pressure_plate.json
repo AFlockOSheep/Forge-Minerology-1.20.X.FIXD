@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "minerology:block/polished_gneiss_pressure_plate"
+    },
+    "powered=true": {
+      "model": "minerology:block/polished_gneiss_pressure_plate_down"
+    }
+  }
+}

@@ -80,10 +80,27 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         generateStoneProductRecipes(ModBlocks.BANDED_GNEISS_BLOCK, ModBlocks.BANDED_GNEISS_STAIRS, ModBlocks.BANDED_GNEISS_SLAB, ModBlocks.BANDED_GNEISS_BUTTON,
                 ModBlocks.BANDED_GNEISS_PRESSURE_PLATE, ModBlocks.BANDED_GNEISS_WALL, pWriter);
-        generateStonecuttingRecipes("gneiss_from_gneiss", "gneiss_block", ModBlocks.BANDED_GNEISS_BLOCK, ModBlocks.BANDED_GNEISS_STAIRS,
+        generateStonecuttingRecipes("banded_gneiss_from_banded_gneiss", "banded_gneiss_block", ModBlocks.BANDED_GNEISS_BLOCK, ModBlocks.BANDED_GNEISS_STAIRS,
                 ModBlocks.BANDED_GNEISS_SLAB, ModBlocks.BANDED_GNEISS_WALL, pWriter);
-        
+        generateStonecuttingRecipes("gneiss_brick_from_banded_gneiss", "banded_gneiss_block", ModBlocks.BANDED_GNEISS_BLOCK, ModBlocks.GNEISS_BRICK_STAIRS,
+                ModBlocks.GNEISS_BRICK_SLAB, ModBlocks.GNEISS_BRICK_WALL, pWriter);
 
+        generateStoneProductRecipes(ModBlocks.GNEISS_BLOCK, ModBlocks.GNEISS_STAIRS, ModBlocks.GNEISS_SLAB, ModBlocks.GNEISS_BUTTON,
+                ModBlocks.GNEISS_PRESSURE_PLATE, ModBlocks.GNEISS_WALL, pWriter);
+        generateStonecuttingRecipes("gneiss_from_gneiss", "gneiss_block", ModBlocks.GNEISS_BLOCK, ModBlocks.GNEISS_STAIRS,
+                ModBlocks.GNEISS_SLAB, ModBlocks.GNEISS_WALL, pWriter);
+        generateStonecuttingRecipes("polished_gneiss_from_gneiss", "gneiss_block", ModBlocks.GNEISS_BLOCK, ModBlocks.POLISHED_GNEISS_STAIRS,
+                ModBlocks.POLISHED_GNEISS_SLAB, ModBlocks.POLISHED_GNEISS_WALL, pWriter);
+
+        generateStoneProductRecipes(ModBlocks.POLISHED_GNEISS_BLOCK, ModBlocks.POLISHED_GNEISS_STAIRS, ModBlocks.POLISHED_GNEISS_SLAB, ModBlocks.POLISHED_GNEISS_BUTTON,
+                ModBlocks.POLISHED_GNEISS_PRESSURE_PLATE, ModBlocks.POLISHED_GNEISS_WALL, pWriter);
+        generateStonecuttingRecipes("polished_gneiss_from_polished_gneiss", "polished_gneiss_block", ModBlocks.POLISHED_GNEISS_BLOCK, ModBlocks.POLISHED_GNEISS_STAIRS,
+                ModBlocks.POLISHED_GNEISS_SLAB, ModBlocks.POLISHED_GNEISS_WALL, pWriter);
+
+        generateStoneProductRecipes(ModBlocks.GNEISS_BRICK, ModBlocks.GNEISS_BRICK_STAIRS, ModBlocks.GNEISS_BRICK_SLAB, ModBlocks.GNEISS_BRICK_BUTTON,
+                ModBlocks.GNEISS_BRICK_PRESSURE_PLATE, ModBlocks.GNEISS_BRICK_WALL, pWriter);
+        generateStonecuttingRecipes("gneiss_brick_from_gneiss_brick", "gneiss_brick", ModBlocks.GNEISS_BRICK, ModBlocks.GNEISS_BRICK_STAIRS,
+                ModBlocks.GNEISS_BRICK_SLAB, ModBlocks.GNEISS_BRICK_WALL, pWriter);
 
 
     }

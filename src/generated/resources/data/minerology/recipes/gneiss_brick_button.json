@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minerology:gneiss_brick"
+    }
+  ],
+  "result": {
+    "item": "minerology:gneiss_brick_button"
+  }
+}

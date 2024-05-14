@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minerology:gneiss_block"
+  },
+  "result": "minerology:polished_gneiss_slab"
+}

@@ -69,6 +69,24 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.BANDED_GNEISS_PRESSURE_PLATE);
         buttonItem(ModBlocks.BANDED_GNEISS_BUTTON, ModBlocks.BANDED_GNEISS_BLOCK);
         wallItem(ModBlocks.BANDED_GNEISS_WALL, ModBlocks.BANDED_GNEISS_BLOCK);
+
+        simpleBlockItem(ModBlocks.GNEISS_STAIRS);
+        simpleBlockItem(ModBlocks.GNEISS_SLAB);
+        simpleBlockItem(ModBlocks.GNEISS_PRESSURE_PLATE);
+        buttonItem(ModBlocks.GNEISS_BUTTON, ModBlocks.GNEISS_BLOCK);
+        wallItem(ModBlocks.GNEISS_WALL, ModBlocks.GNEISS_BLOCK);
+
+        simpleBlockItem(ModBlocks.POLISHED_GNEISS_STAIRS);
+        simpleBlockItem(ModBlocks.POLISHED_GNEISS_SLAB);
+        simpleBlockItem(ModBlocks.POLISHED_GNEISS_PRESSURE_PLATE);
+        buttonItem(ModBlocks.POLISHED_GNEISS_BUTTON, ModBlocks.POLISHED_GNEISS_BLOCK);
+        wallItem(ModBlocks.POLISHED_GNEISS_WALL, ModBlocks.POLISHED_GNEISS_BLOCK);
+
+        simpleBlockItem(ModBlocks.GNEISS_BRICK_STAIRS);
+        simpleBlockItem(ModBlocks.GNEISS_BRICK_SLAB);
+        simpleBlockItem(ModBlocks.GNEISS_BRICK_PRESSURE_PLATE);
+        buttonItem(ModBlocks.GNEISS_BRICK_BUTTON, ModBlocks.GNEISS_BRICK);
+        wallItem(ModBlocks.GNEISS_BRICK_WALL, ModBlocks.GNEISS_BRICK);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

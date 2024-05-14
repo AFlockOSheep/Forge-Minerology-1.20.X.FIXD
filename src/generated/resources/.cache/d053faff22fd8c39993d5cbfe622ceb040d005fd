@@ -1,9 +1,9 @@
-// 1.20.1	2024-05-13T18:38:27.1941736	Tags for minecraft:block mod id minerology
+// 1.20.1	2024-05-13T19:41:39.39527	Tags for minecraft:block mod id minerology
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
 fa4853bd0239337f7fbf9c75b7ff93cf2386e507 data/minecraft/tags/blocks/mineable/pickaxe.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_diamond_tool.json
 793b3c9d581f5cb5c7b396a59436904f978e5258 data/minecraft/tags/blocks/needs_iron_tool.json
 8433612075dfad1d74019f66bfa0da0b4c127c40 data/minecraft/tags/blocks/needs_stone_tool.json
-c7782797dabd435c77101c30c519a9b6b9fe1c06 data/minecraft/tags/blocks/walls.json
+571af9b74a1a547590ae2b45d6d0a68648271e01 data/minecraft/tags/blocks/walls.json
 e60362e4b1a1bc778cedbf3d2cd625e984b2a422 data/minerology/tags/blocks/chiselable.json
 3050a7e2f7bb63fac1cd88daf0d2536d00c499b7 data/minerology/tags/blocks/needs_sledgehammer.json

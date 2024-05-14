@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_banded_gneiss_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minerology:banded_gneiss_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:stonecutting_wall_gneiss_brick_from_banded_gneiss"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_banded_gneiss_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:stonecutting_wall_gneiss_brick_from_banded_gneiss"
+    ]
+  },
+  "sends_telemetry_event": false
+}
