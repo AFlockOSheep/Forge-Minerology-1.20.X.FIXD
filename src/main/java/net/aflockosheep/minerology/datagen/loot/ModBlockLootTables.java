@@ -3,13 +3,10 @@ package net.aflockosheep.minerology.datagen.loot;
 import net.aflockosheep.minerology.block.ModBlocks;
 import net.aflockosheep.minerology.item.ModItems;
 import net.minecraft.data.loot.BlockLootSubProvider;
-import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
@@ -17,8 +14,6 @@ import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.awt.*;
-import java.rmi.registry.Registry;
 import java.util.Set;
 
 public class ModBlockLootTables extends BlockLootSubProvider {
@@ -52,8 +47,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         generateStoneBlockDrops(ModBlocks.QUARTZITE_BLOCK, ModBlocks.QUARTZITE_STAIRS, ModBlocks.QUARTZITE_SLAB, ModBlocks.QUARTZITE_BUTTON,
                 ModBlocks.QUARTZITE_PRESSURE_PLATE, ModBlocks.QUARTZITE_WALL);
 
-        generateStoneBlockDrops(ModBlocks.GNEISS_BLOCK, ModBlocks.GNEISS_STAIRS, ModBlocks.GNEISS_SLAB, ModBlocks.GNEISS_BUTTON,
-                ModBlocks.GNEISS_PRESSURE_PLATE, ModBlocks.GNEISS_WALL);
+        generateStoneBlockDrops(ModBlocks.BANDED_GNEISS_BLOCK, ModBlocks.BANDED_GNEISS_STAIRS, ModBlocks.BANDED_GNEISS_SLAB, ModBlocks.BANDED_GNEISS_BUTTON,
+                ModBlocks.BANDED_GNEISS_PRESSURE_PLATE, ModBlocks.BANDED_GNEISS_WALL);
 
     }
 

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "minerology:block/banded_gneiss_block",
+    "side": "minerology:block/banded_gneiss_block",
+    "top": "minerology:block/banded_gneiss_block"
+  }
+}

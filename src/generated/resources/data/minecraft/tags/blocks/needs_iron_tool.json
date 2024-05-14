@@ -1,6 +1,6 @@
 {
   "values": [
-    "minerology:gneiss_block",
+    "minerology:banded_gneiss_block",
     "minerology:quartzite_block",
     "minerology:ruby_ore",
     "#forge:ores"

@@ -16,7 +16,6 @@ import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.minecraftforge.registries.RegistryObject;
 import org.jetbrains.annotations.NotNull;
 
-import java.rmi.registry.Registry;
 import java.util.Iterator;
 import java.util.List;
 import java.util.function.Consumer;
@@ -79,10 +78,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         generateStonecuttingRecipes("quartzite_from_quartzite", "quartzite_block", ModBlocks.QUARTZITE_BLOCK, ModBlocks.QUARTZITE_STAIRS,
                 ModBlocks.QUARTZITE_SLAB, ModBlocks.QUARTZITE_WALL, pWriter);
 
-        generateStoneProductRecipes(ModBlocks.GNEISS_BLOCK, ModBlocks.GNEISS_STAIRS, ModBlocks.GNEISS_SLAB, ModBlocks.GNEISS_BUTTON,
-                ModBlocks.GNEISS_PRESSURE_PLATE, ModBlocks.GNEISS_WALL, pWriter);
-        generateStonecuttingRecipes("gneiss_from_gneiss", "gneiss_block", ModBlocks.GNEISS_BLOCK, ModBlocks.GNEISS_STAIRS,
-                ModBlocks.GNEISS_SLAB, ModBlocks.GNEISS_WALL, pWriter);
+        generateStoneProductRecipes(ModBlocks.BANDED_GNEISS_BLOCK, ModBlocks.BANDED_GNEISS_STAIRS, ModBlocks.BANDED_GNEISS_SLAB, ModBlocks.BANDED_GNEISS_BUTTON,
+                ModBlocks.BANDED_GNEISS_PRESSURE_PLATE, ModBlocks.BANDED_GNEISS_WALL, pWriter);
+        generateStonecuttingRecipes("gneiss_from_gneiss", "gneiss_block", ModBlocks.BANDED_GNEISS_BLOCK, ModBlocks.BANDED_GNEISS_STAIRS,
+                ModBlocks.BANDED_GNEISS_SLAB, ModBlocks.BANDED_GNEISS_WALL, pWriter);
         
 
 

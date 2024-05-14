@@ -6,14 +6,11 @@ import net.aflockosheep.minerology.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.fml.common.Mod;
 import org.jetbrains.annotations.Nullable;
 
-import javax.swing.text.html.HTML;
 import java.util.concurrent.CompletableFuture;
 
 public class ModBlockTagGenerator extends BlockTagsProvider {
@@ -27,7 +24,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.RUBY_ORE.get())
                 .add(ModBlocks.SHALE_BLOCK_NODULE.get());
         this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.GNEISS_BLOCK.get())
+                .add(ModBlocks.BANDED_GNEISS_BLOCK.get())
                 .add(ModBlocks.QUARTZITE_BLOCK.get())
                 .add(ModBlocks.RUBY_ORE.get()).addTag(Tags.Blocks.ORES);
         this.tag(BlockTags.NEEDS_STONE_TOOL)
@@ -39,7 +36,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.SHALE_BLOCK_NODULE.get())
                 .add(ModBlocks.RUBY_ORE.get())
                 .add(ModBlocks.MARBLE_BLOCK.get())
-                .add(ModBlocks.GNEISS_BLOCK.get())
+                .add(ModBlocks.BANDED_GNEISS_BLOCK.get())
                 .add(ModBlocks.QUARTZITE_BLOCK.get());
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL);
@@ -53,7 +50,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.POLISHED_MARBLE_BRICK_WALL.get())
                 .add(ModBlocks.SHALE_PLATE_BRICK_WALL.get())
                 .add(ModBlocks.QUARTZITE_WALL.get())
-                .add(ModBlocks.GNEISS_WALL.get());
+                .add(ModBlocks.BANDED_GNEISS_WALL.get());
 
     }
 }

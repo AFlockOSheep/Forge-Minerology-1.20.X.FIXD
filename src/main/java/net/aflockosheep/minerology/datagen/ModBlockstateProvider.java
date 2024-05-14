@@ -3,13 +3,10 @@ package net.aflockosheep.minerology.datagen;
 import net.aflockosheep.minerology.Minerology;
 import net.aflockosheep.minerology.block.ModBlocks;
 import net.minecraft.data.PackOutput;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
-
-import java.rmi.registry.Registry;
 
 public class ModBlockstateProvider extends BlockStateProvider {
     public ModBlockstateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
@@ -41,8 +38,8 @@ public class ModBlockstateProvider extends BlockStateProvider {
                 ModBlocks.SHALE_PLATE_BRICK_PRESSURE_PLATE, ModBlocks.SHALE_PLATE_BRICK_WALL);
         generateStoneBlocks(ModBlocks.QUARTZITE_BLOCK, ModBlocks.QUARTZITE_STAIRS, ModBlocks.QUARTZITE_SLAB, ModBlocks.QUARTZITE_BUTTON,
                 ModBlocks.QUARTZITE_PRESSURE_PLATE, ModBlocks.QUARTZITE_WALL);
-        generateStoneBlocks(ModBlocks.GNEISS_BLOCK, ModBlocks.GNEISS_STAIRS, ModBlocks.GNEISS_SLAB, ModBlocks.GNEISS_BUTTON,
-                ModBlocks.GNEISS_PRESSURE_PLATE, ModBlocks.GNEISS_WALL);
+        generateStoneBlocks(ModBlocks.BANDED_GNEISS_BLOCK, ModBlocks.BANDED_GNEISS_STAIRS, ModBlocks.BANDED_GNEISS_SLAB, ModBlocks.BANDED_GNEISS_BUTTON,
+                ModBlocks.BANDED_GNEISS_PRESSURE_PLATE, ModBlocks.BANDED_GNEISS_WALL);
         
     }
 

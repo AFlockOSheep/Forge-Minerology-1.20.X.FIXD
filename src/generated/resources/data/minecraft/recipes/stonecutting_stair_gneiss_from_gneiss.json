@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "minerology:gneiss_block"
+    "item": "minerology:banded_gneiss_block"
   },
-  "result": "minerology:gneiss_stairs"
+  "result": "minerology:banded_gneiss_stairs"
 }

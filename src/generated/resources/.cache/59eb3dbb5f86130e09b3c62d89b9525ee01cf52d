@@ -1,10 +1,10 @@
-// 1.20.1	2024-05-13T00:36:49.3789582	Loot Tables
-fe6a77ef0a62d76aa96169c8f72df16505f196c4 data/minerology/loot_tables/blocks/gneiss_block.json
-8f68feb21a377a237db2107c6245003be1caa2cd data/minerology/loot_tables/blocks/gneiss_button.json
-892698095a11ebbbf66919752bbc7c80a7f63971 data/minerology/loot_tables/blocks/gneiss_pressure_plate.json
-73946f0f0339600ad1e3129f0ec4f7fd78a5a641 data/minerology/loot_tables/blocks/gneiss_slab.json
-dd11c647b0ac406de3f32d1ff9c661ce09330fc8 data/minerology/loot_tables/blocks/gneiss_stairs.json
-5fe94c3e86ae586a1feeed9ed74e01b8fd480726 data/minerology/loot_tables/blocks/gneiss_wall.json
+// 1.20.1	2024-05-13T18:38:27.1991598	Loot Tables
+fc25615e1b53f6bc71863c39d0dfaf421174aef3 data/minerology/loot_tables/blocks/banded_gneiss_block.json
+17d9addc109a4e932b6219e31c04a069f56b331f data/minerology/loot_tables/blocks/banded_gneiss_button.json
+762b100d8bb407325f2d1407cc5b85fde373b6c4 data/minerology/loot_tables/blocks/banded_gneiss_pressure_plate.json
+09369e9a29169c9a275b40f35e546ff7562dbb0a data/minerology/loot_tables/blocks/banded_gneiss_slab.json
+d47b95886fdc6241a42faefafc265dfc31a7d0ef data/minerology/loot_tables/blocks/banded_gneiss_stairs.json
+d0a8c161cf8aeab3224bdba02311d7cf4e9e31b5 data/minerology/loot_tables/blocks/banded_gneiss_wall.json
 ae543f7678143da8b8655fb18c21e4833eda0013 data/minerology/loot_tables/blocks/marble_block.json
 3373ea95c33f10019af624658654d7ae73541089 data/minerology/loot_tables/blocks/marble_button.json
 03230a936bc03ec4cdabf18c3be69ae90555d8de data/minerology/loot_tables/blocks/marble_pressure_plate.json

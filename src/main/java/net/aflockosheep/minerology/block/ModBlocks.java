@@ -3,8 +3,6 @@ package net.aflockosheep.minerology.block;
 import net.aflockosheep.minerology.Minerology;
 import net.aflockosheep.minerology.block.custom.SoundBlock;
 import net.aflockosheep.minerology.item.ModItems;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -137,21 +135,21 @@ public class ModBlocks {
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));
 
     //GNEISS
-    public static final RegistryObject<Block> GNEISS_BLOCK = registerBlock("gneiss_block",
+    public static final RegistryObject<Block> BANDED_GNEISS_BLOCK = registerBlock("banded_gneiss_block",
             () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));
-    public static final RegistryObject<Block> GNEISS_STAIRS = registerBlock("gneiss_stairs",
-            () -> new StairBlock(() -> ModBlocks.GNEISS_BLOCK.get().defaultBlockState(),
+    public static final RegistryObject<Block> BANDED_GNEISS_STAIRS = registerBlock("banded_gneiss_stairs",
+            () -> new StairBlock(() -> ModBlocks.BANDED_GNEISS_BLOCK.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));
-    public static final RegistryObject<Block> GNEISS_SLAB = registerBlock("gneiss_slab",
+    public static final RegistryObject<Block> BANDED_GNEISS_SLAB = registerBlock("banded_gneiss_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));
-    public static final RegistryObject<Block> GNEISS_BUTTON = registerBlock("gneiss_button",
+    public static final RegistryObject<Block> BANDED_GNEISS_BUTTON = registerBlock("banded_gneiss_button",
             () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.TUFF),
                     BlockSetType.IRON, 10, true));
-    public static final RegistryObject<Block> GNEISS_PRESSURE_PLATE = registerBlock("gneiss_pressure_plate",
+    public static final RegistryObject<Block> BANDED_GNEISS_PRESSURE_PLATE = registerBlock("banded_gneiss_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,
                     BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF),
                     BlockSetType.IRON));
-    public static final RegistryObject<Block> GNEISS_WALL = registerBlock("gneiss_wall",
+    public static final RegistryObject<Block> BANDED_GNEISS_WALL = registerBlock("banded_gneiss_wall",
             () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));
 
 

@@ -64,11 +64,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         buttonItem(ModBlocks.QUARTZITE_BUTTON, ModBlocks.QUARTZITE_BLOCK);
         wallItem(ModBlocks.QUARTZITE_WALL, ModBlocks.QUARTZITE_BLOCK);
 
-        simpleBlockItem(ModBlocks.GNEISS_STAIRS);
-        simpleBlockItem(ModBlocks.GNEISS_SLAB);
-        simpleBlockItem(ModBlocks.GNEISS_PRESSURE_PLATE);
-        buttonItem(ModBlocks.GNEISS_BUTTON, ModBlocks.GNEISS_BLOCK);
-        wallItem(ModBlocks.GNEISS_WALL, ModBlocks.GNEISS_BLOCK);
+        simpleBlockItem(ModBlocks.BANDED_GNEISS_STAIRS);
+        simpleBlockItem(ModBlocks.BANDED_GNEISS_SLAB);
+        simpleBlockItem(ModBlocks.BANDED_GNEISS_PRESSURE_PLATE);
+        buttonItem(ModBlocks.BANDED_GNEISS_BUTTON, ModBlocks.BANDED_GNEISS_BLOCK);
+        wallItem(ModBlocks.BANDED_GNEISS_WALL, ModBlocks.BANDED_GNEISS_BLOCK);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
