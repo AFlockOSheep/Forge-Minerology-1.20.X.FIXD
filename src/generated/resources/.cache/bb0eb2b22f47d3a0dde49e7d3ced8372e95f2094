@@ -1,4 +1,4 @@
-// 1.20.1	2024-05-13T19:41:39.397661	Item Models: minerology
+// 1.20.1	2024-05-15T02:00:06.1844747	Item Models: minerology
 8101c05cb2e60af5ea288a1d1d06e73249c21315 assets/minerology/models/item/banded_gneiss_button.json
 34dcb006837a36665182f565a6ca687a38f19efa assets/minerology/models/item/banded_gneiss_pressure_plate.json
 13511514ccb394d36d0eaf7111996e0bddd508d8 assets/minerology/models/item/banded_gneiss_slab.json
@@ -47,6 +47,10 @@ c91b518ee660a28f573d2594d7af7620436ba10f assets/minerology/models/item/quartzite
 e67dc0b45466e66a4ce7267741f05d181d750d71 assets/minerology/models/item/quartzite_wall.json
 7dee415c10f9ef1212861ebcd727c91587fa7c54 assets/minerology/models/item/ruby_hq.json
 9bc9e26d44534763a45ec07fddafc6be87f958d5 assets/minerology/models/item/ruby_lq.json
+e36e82f594f85d1dc823653fc3867c70903d265f assets/minerology/models/item/shale_boots.json
+01d719cb713df261347a57580b387492c7832a20 assets/minerology/models/item/shale_chestplate.json
+b9613199adba9ba855c1d152bab8976db2683abf assets/minerology/models/item/shale_helmet.json
+79bc0366b6c34aaa6a1b8659b909d78840e18429 assets/minerology/models/item/shale_leggings.json
 39640895fa537017e200ade37879c0cc5b486dcc assets/minerology/models/item/shale_plate.json
 cc962a68ef89e6ae182f56747247dcc90b2f9c2a assets/minerology/models/item/shale_plate_brick_button.json
 90ad44d6a79f9c8dac3f98e9a21e0e90edff8bd5 assets/minerology/models/item/shale_plate_brick_pressure_plate.json

@@ -11,6 +11,10 @@
   "item.minerology.lemon_seeds": "Lemon Seeds",
   "item.minerology.bucket_of_lemon_juice": "Bucket Of Lemon Juice",
   "item.minerology.bucket_of_citric_acid": "Bucket Of Citric Acid",
+  "item.minerology.shale_helmet": "Shelmet",
+  "item.minerology.shale_chestplate": "Shalesplate",
+  "item.minerology.shale_leggings": "Shorts",
+  "item.minerology.shale_boots": "Sheels",
 
   "block.minerology.shale_block": "Shale",
   "block.minerology.shale_block_nodule": "Shale Nodule Block",

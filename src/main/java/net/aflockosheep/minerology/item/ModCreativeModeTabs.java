@@ -31,7 +31,12 @@ ModCreativeModeTabs {
                         pOutput.accept(ModItems.LEMON_SEEDS.get());
                         pOutput.accept(ModItems.BUCKET_OF_LEMON_JUICE.get());
                         pOutput.accept(ModItems.BUCKET_OF_CITRIC_ACID.get());
-                        
+
+                        pOutput.accept(ModItems.SHALE_HELMET.get());
+                        pOutput.accept(ModItems.SHALE_CHESTPLATE.get());
+                        pOutput.accept(ModItems.SHALE_LEGGINGS.get());
+                        pOutput.accept(ModItems.SHALE_BOOTS.get());
+
                         pOutput.accept(ModBlocks.SHALE_BLOCK.get());
                         pOutput.accept(ModBlocks.SHALE_BLOCK_NODULE.get());
                         pOutput.accept(ModBlocks.MARBLE_BLOCK.get());

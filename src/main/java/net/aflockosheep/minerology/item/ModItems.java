@@ -2,6 +2,8 @@ package net.aflockosheep.minerology.item;
 
 import net.aflockosheep.minerology.Minerology;
 import net.aflockosheep.minerology.item.custom.MetalDetectorItem;
+import net.aflockosheep.minerology.item.custom.ShaleArmorItem;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -39,6 +41,15 @@ public class ModItems {
 
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties().durability(100)));
+
+    public static final RegistryObject<Item> SHALE_HELMET = ITEMS.register("shale_helmet",
+            () -> new ShaleArmorItem(ModArmorMaterials.SHALE, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> SHALE_CHESTPLATE = ITEMS.register("shale_chestplate",
+            () -> new ShaleArmorItem(ModArmorMaterials.SHALE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> SHALE_LEGGINGS = ITEMS.register("shale_leggings",
+            () -> new ShaleArmorItem(ModArmorMaterials.SHALE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> SHALE_BOOTS = ITEMS.register("shale_boots",
+            () -> new ShaleArmorItem(ModArmorMaterials.SHALE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

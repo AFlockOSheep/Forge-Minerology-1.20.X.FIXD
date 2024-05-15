@@ -24,7 +24,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.BUCKET_OF_CITRIC_ACID);
         simpleItem(ModItems.LEMON);
         simpleItem(ModItems.RUBY_HQ);
-         simpleItem(ModItems.RUBY_LQ);
+        simpleItem(ModItems.RUBY_LQ);
         //simpleItem(ModItems.ROCK_PICK);
         //simpleItem(ModItems.ROCK_CHISEL);
         //handHeldItem(ModItems.SLEDGEHAMMER);
@@ -33,6 +33,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.DATA_CRYSTAL);
         simpleItem(ModItems.LEMON_SEEDS);
+
+        simpleItem(ModItems.SHALE_HELMET);
+        simpleItem(ModItems.SHALE_CHESTPLATE);
+        simpleItem(ModItems.SHALE_LEGGINGS);
+        simpleItem(ModItems.SHALE_BOOTS);
+
+
 
         simpleBlockItem(ModBlocks.MARBLE_STAIRS);
         simpleBlockItem(ModBlocks.MARBLE_SLAB);
