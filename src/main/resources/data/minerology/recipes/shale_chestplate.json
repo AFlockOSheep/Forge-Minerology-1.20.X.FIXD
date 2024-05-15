@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "P": {
+      "item": "minerology:shale_plate"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "P P",
+    "LPL",
+    "PPP"
+  ],
+  "result": {
+    "item": "minerology:shale_chestplate"
+  },
+  "show_notification": true
+}

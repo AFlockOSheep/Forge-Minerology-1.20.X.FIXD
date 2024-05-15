@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "P": {
+      "item": "minerology:shale_plate"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "P P",
+    "SSS"
+  ],
+  "result": {
+    "item": "minerology:shale_helmet"
+  },
+  "show_notification": true
+}

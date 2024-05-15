@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "P": {
+      "item": "minerology:shale_plate"
+    }
+  },
+  "pattern": [
+    "P P",
+    "P P",
+    "P P"
+  ],
+  "result": {
+    "item": "minerology:shale_boots"
+  },
+  "show_notification": true
+}

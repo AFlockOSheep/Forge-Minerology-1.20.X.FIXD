@@ -10,8 +10,8 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    SHALE("shale", 26, new int[]{5, 7, 5, 4}, 25, SoundEvents.ARMOR_EQUIP_LEATHER,
-            1f, 0f, () -> Ingredient.of(ModItems.SHALE_PLATE.get()));
+    SHALE("shale", 5, new int[]{2, 4, 3, 2}, 25, SoundEvents.ARMOR_EQUIP_LEATHER,
+            0f, 0f, () -> Ingredient.of(ModItems.SHALE_PLATE.get()));
 
     private final String name;
     private final int durabilityMultiplier;
