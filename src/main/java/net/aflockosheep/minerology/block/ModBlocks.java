@@ -154,7 +154,7 @@ public class ModBlocks {
     
     //GNEISS
     public static final RegistryObject<Block> GNEISS_BLOCK = registerBlock("gneiss_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));
+            () -> new GlazedTerracottaBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));
     public static final RegistryObject<Block> GNEISS_STAIRS = registerBlock("gneiss_stairs",
             () -> new StairBlock(() -> ModBlocks.GNEISS_BLOCK.get().defaultBlockState(),
                     BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.TUFF)));

@@ -21,7 +21,7 @@ public class ModBlockstateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.POLISHED_MARBLE_BRICK);
         blockWithItem(ModBlocks.SHALE_PLATE_BRICK);
         blockWithItem(ModBlocks.QUARTZITE_BLOCK);
-        blockWithItem(ModBlocks.GNEISS_BLOCK);
+
         blockWithItem(ModBlocks.POLISHED_GNEISS_BLOCK);
         blockWithItem(ModBlocks.GNEISS_BRICK);
 

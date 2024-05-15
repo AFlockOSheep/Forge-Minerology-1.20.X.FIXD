@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "minerology:block/gneiss_block",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "minerology:block/gneiss_block",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "minerology:block/gneiss_block"
+    },
+    "facing=west": {
+      "model": "minerology:block/gneiss_block",
+      "y": 90
+    }
+  }
+}
