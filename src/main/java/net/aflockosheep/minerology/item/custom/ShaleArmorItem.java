@@ -1,13 +1,18 @@
 package net.aflockosheep.minerology.item.custom;
 
+import com.google.common.collect.ImmutableMap;
 import net.aflockosheep.minerology.item.ModArmorMaterials;
 import net.aflockosheep.minerology.item.client.ShaleArmorRenderer;
 import net.minecraft.client.model.HumanoidModel;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 import org.jetbrains.annotations.NotNull;
 import software.bernie.geckolib.animatable.GeoItem;
@@ -16,14 +21,16 @@ import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInst
 import software.bernie.geckolib.core.animation.*;
 import software.bernie.geckolib.core.object.PlayState;
 
+import java.util.Map;
 import java.util.function.Consumer;
 
-public class ShaleArmorItem extends ArmorItem implements GeoItem {
+public class ShaleArmorItem extends ModArmorItem implements GeoItem {
     private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
 
     public ShaleArmorItem(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
         super(pMaterial, pType, pProperties);
     }
+
 
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
