@@ -9,7 +9,7 @@
       "parent": "minerology:item/rock_chisel_2d"
     },
     "ground": {
-      "parent": "minerology:item/rock_chisel_3d"
+      "parent": "minerology:item/rock_chisel_2d"
     },
     "fixed": {
       "parent": "minerology:item/rock_chisel_3d"

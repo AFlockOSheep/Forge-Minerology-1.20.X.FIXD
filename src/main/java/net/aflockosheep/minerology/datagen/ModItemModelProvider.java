@@ -25,6 +25,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.LEMON);
         simpleItem(ModItems.RUBY_HQ);
         simpleItem(ModItems.RUBY_LQ);
+        simpleItem(ModItems.GARNET_ALMANDINE);
+        simpleItem(ModItems.DWELLER_TAIL);
+        simpleItem(ModItems.DWELLER_TAIL_CARAPACE);
+        simpleItem(ModItems.ROASTED_DWELLER_TAIL);
+        simpleItem(ModItems.DWELLER_CHITIN);
+
         //simpleItem(ModItems.ROCK_PICK);
         //simpleItem(ModItems.ROCK_CHISEL);
         //handHeldItem(ModItems.SLEDGEHAMMER);

@@ -26,11 +26,17 @@ ModCreativeModeTabs {
                         pOutput.accept(ModItems.SHALE_PLATE.get());
                         pOutput.accept(ModItems.RUBY_HQ.get());
                         pOutput.accept(ModItems.RUBY_LQ.get());
+                        pOutput.accept(ModItems.GARNET_ALMANDINE.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModItems.LEMON.get());
                         pOutput.accept(ModItems.LEMON_SEEDS.get());
                         pOutput.accept(ModItems.BUCKET_OF_LEMON_JUICE.get());
                         pOutput.accept(ModItems.BUCKET_OF_CITRIC_ACID.get());
+                        pOutput.accept(ModItems.DWELLER_TAIL_CARAPACE.get());
+                        pOutput.accept(ModItems.DWELLER_TAIL.get());
+                        pOutput.accept(ModItems.ROASTED_DWELLER_TAIL.get());
+                        pOutput.accept(ModItems.DWELLER_CHITIN.get());
+
 
                         pOutput.accept(ModItems.SHALE_HELMET.get());
                         pOutput.accept(ModItems.SHALE_CHESTPLATE.get());

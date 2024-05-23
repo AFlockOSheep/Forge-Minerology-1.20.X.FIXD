@@ -24,6 +24,8 @@ import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
     private static final List<ItemLike> RUBY_SMELTABLES = List.of(ModBlocks.RUBY_ORE.get());
+    private static final List<ItemLike> DWELLER_COOKABLES = List.of(ModItems.DWELLER_TAIL.get());
+
 
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
@@ -33,6 +35,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
         oreSmelting(pWriter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY_LQ.get(), 0.25f, 200, "ruby_lq");
         oreBlasting(pWriter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY_LQ.get(), 0.25f, 100, "ruby_lq");
+
+        foodSmoking(pWriter, DWELLER_COOKABLES, RecipeCategory.FOOD, ModItems.ROASTED_DWELLER_TAIL.get(), 0.35f, 200, "roasted_dweller_tail");
+        oreSmelting(pWriter, DWELLER_COOKABLES, RecipeCategory.FOOD, ModItems.ROASTED_DWELLER_TAIL.get(), 0.35f, 200, "roasted_dweller_tail");
 
         genericBlockRecipe(ModBlocks.SHALE_BLOCK, ModItems.SHALE_PLATE, pWriter);
 
@@ -201,6 +206,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     protected static void oreBlasting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup) {
         oreCooking(pFinishedRecipeConsumer, RecipeSerializer.BLASTING_RECIPE, pIngredients, pCategory, pResult, pExperience, pCookingTime, pGroup, "_from_blasting");
     }
+
+    protected static void foodSmoking(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup) {
+        oreCooking(pFinishedRecipeConsumer, RecipeSerializer.SMOKING_RECIPE, pIngredients, pCategory, pResult, pExperience, pCookingTime, pGroup, "_from_smoking");
+    }
+
 
     protected static void oreCooking(Consumer<FinishedRecipe> pFinishedRecipeConsumer, RecipeSerializer<? extends AbstractCookingRecipe> pCookingSerializer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup, String pRecipeName) {
         Iterator var9 = pIngredients.iterator();

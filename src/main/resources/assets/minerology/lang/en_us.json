@@ -6,11 +6,20 @@
   "item.minerology.shale_plate": "Shale Plate",
   "item.minerology.ruby_hq": "High Quality Ruby",
   "item.minerology.ruby_lq": "Low Quality Ruby",
+  "item.minerology.garnet_almandine": "Almandine Garnet",
   "item.minerology.metal_detector": "Metal Detector",
   "item.minerology.lemon": "Lemon",
   "item.minerology.lemon_seeds": "Lemon Seeds",
   "item.minerology.bucket_of_lemon_juice": "Bucket Of Lemon Juice",
   "item.minerology.bucket_of_citric_acid": "Bucket Of Citric Acid",
+  "item.minerology.dweller_tail": "Dweller Tail",
+  "item.minerology.roasted_dweller_tail": "Roasted Dweller Tail",
+  "item.minerology.dweller_tail_carapace": "Dweller Tail Carapace",
+  "item.minerology.dweller_chitin": "Dweller Chitin",
+
+
+
+
   "item.minerology.shale_helmet": "Shelmet",
   "item.minerology.shale_chestplate": "Shalesplate",
   "item.minerology.shale_leggings": "Shorts",
@@ -89,6 +98,8 @@
 
 
   "tooltip.minerology.metal_detector.tooltip": "Finds valuables underground",
+  "tooltip.minerology.rock_chisel.tooltip": "Use with the Rock Pick on veins and nodules to unearth valuables",
+  "tooltip.minerology.rock_pick.tooltip": "Use with the Rock Chisel on veins and nodules to unearth valuables",
 
 
   "creativetab.minerology_tab": "Minerology"
