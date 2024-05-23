@@ -1,0 +1,6 @@
+// 1.20.1	2024-05-22T16:06:32.546237	Global Loot Modifiers : minerology
+9a245d15037da5dc3d1338b84038df8c1c26a670 data/forge/loot_modifiers/global_loot_modifiers.json
+a873687ff8c00605d0828ef1c25852dd815d78fa data/minerology/loot_modifiers/garnet_from_desert_temple.json
+5311da665e5a372f16de49fe89a5ac0abb5f8907 data/minerology/loot_modifiers/garnet_from_gravel.json
+d748a6a8c99459b859953a4b7a2d2ad38f674096 data/minerology/loot_modifiers/garnet_from_suspicious_gravel.json
+2b1cd9e30a1475eda9f5c6ba4abc9b66df6cc861 data/minerology/loot_modifiers/garnet_from_wandering_trader.json

@@ -1,0 +1,9 @@
+{
+  "entries": [
+    "minerology:garnet_from_suspicious_gravel",
+    "minerology:garnet_from_desert_temple",
+    "minerology:garnet_from_wandering_trader",
+    "minerology:garnet_from_gravel"
+  ],
+  "replace": false
+}
