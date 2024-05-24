@@ -11,7 +11,9 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     SHALE("shale", 5, new int[]{1, 2, 1, 1}, 25, SoundEvents.ARMOR_EQUIP_LEATHER,
-            0f, 0f, () -> Ingredient.of(ModItems.SHALE_PLATE.get()));
+            0f, 0f, () -> Ingredient.of(ModItems.SHALE_PLATE.get())),
+    HARDHAT("hardhat", 5, new int[]{5, 0, 0, 0}, 25, SoundEvents.ARMOR_EQUIP_TURTLE,
+            2f, 0f, () -> Ingredient.of(ModItems.DWELLER_CHITIN.get()));
 
     private final String name;  
     private final int durabilityMultiplier;

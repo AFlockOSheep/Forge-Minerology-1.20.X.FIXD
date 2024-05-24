@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "group": "roasted_dweller_tail",
+  "ingredient": {
+    "item": "minerology:dweller_tail"
+  },
+  "result": "minerology:roasted_dweller_tail"
+}

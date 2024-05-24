@@ -31,17 +31,21 @@ ModCreativeModeTabs {
                         pOutput.accept(ModItems.LEMON.get());
                         pOutput.accept(ModItems.LEMON_SEEDS.get());
                         pOutput.accept(ModItems.BUCKET_OF_LEMON_JUICE.get());
+                        pOutput.accept(ModItems.BUCKET_OF_PRIMED_LEMON_JUICE.get());
                         pOutput.accept(ModItems.BUCKET_OF_CITRIC_ACID.get());
                         pOutput.accept(ModItems.DWELLER_TAIL_CARAPACE.get());
                         pOutput.accept(ModItems.DWELLER_TAIL.get());
                         pOutput.accept(ModItems.ROASTED_DWELLER_TAIL.get());
                         pOutput.accept(ModItems.DWELLER_CHITIN.get());
+                        pOutput.accept(ModItems.LIME.get());
 
 
                         pOutput.accept(ModItems.SHALE_HELMET.get());
                         pOutput.accept(ModItems.SHALE_CHESTPLATE.get());
                         pOutput.accept(ModItems.SHALE_LEGGINGS.get());
                         pOutput.accept(ModItems.SHALE_BOOTS.get());
+
+                        pOutput.accept(ModItems.HARDHAT.get());
 
                         pOutput.accept(ModBlocks.SHALE_BLOCK.get());
                         pOutput.accept(ModBlocks.SHALE_BLOCK_NODULE.get());

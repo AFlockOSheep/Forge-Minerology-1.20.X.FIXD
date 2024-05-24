@@ -21,6 +21,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.BUCKET_OF_LEMON_JUICE);
+        simpleItem(ModItems.BUCKET_OF_PRIMED_LEMON_JUICE);
         simpleItem(ModItems.BUCKET_OF_CITRIC_ACID);
         simpleItem(ModItems.LEMON);
         simpleItem(ModItems.RUBY_HQ);
@@ -30,6 +31,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.DWELLER_TAIL_CARAPACE);
         simpleItem(ModItems.ROASTED_DWELLER_TAIL);
         simpleItem(ModItems.DWELLER_CHITIN);
+        simpleItem(ModItems.LIME);
 
         //simpleItem(ModItems.ROCK_PICK);
         //simpleItem(ModItems.ROCK_CHISEL);
@@ -44,6 +46,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SHALE_CHESTPLATE);
         simpleItem(ModItems.SHALE_LEGGINGS);
         simpleItem(ModItems.SHALE_BOOTS);
+
+        simpleItem(ModItems.HARDHAT);
 
 
 

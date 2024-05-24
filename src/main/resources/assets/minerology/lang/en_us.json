@@ -11,8 +11,9 @@
   "item.minerology.lemon": "Lemon",
   "item.minerology.lemon_seeds": "Lemon Seeds",
   "item.minerology.bucket_of_lemon_juice": "Bucket Of Lemon Juice",
+  "item.minerology.bucket_of_primed_lemon_juice": "Bucket Of Primed Lemon Juice",
   "item.minerology.bucket_of_citric_acid": "Bucket Of Citric Acid",
-  "item.minerology.dweller_tail": "Dweller Tail",
+  "item.minerology.dweller_tail": "Dweller Tail Meat",
   "item.minerology.roasted_dweller_tail": "Roasted Dweller Tail",
   "item.minerology.dweller_tail_carapace": "Dweller Tail Carapace",
   "item.minerology.dweller_chitin": "Dweller Chitin",
@@ -24,6 +25,8 @@
   "item.minerology.shale_chestplate": "Shalesplate",
   "item.minerology.shale_leggings": "Shorts",
   "item.minerology.shale_boots": "Sheels",
+  "item.minerology.hardhat": "Hardhat",
+  "item.minerology.lime": "Lime",
 
   "block.minerology.shale_block": "Shale",
   "block.minerology.shale_block_nodule": "Shale Nodule Block",
@@ -94,12 +97,18 @@
   "block.minerology.gneiss_brick_button": "Gneiss Brick Button",
 
 
+  "entity.minecraft.villager.minerology.jeweler": "Jeweler",
+
+
 
 
 
   "tooltip.minerology.metal_detector.tooltip": "Finds valuables underground",
   "tooltip.minerology.rock_chisel.tooltip": "Use with the Rock Pick on veins and nodules to unearth valuables",
   "tooltip.minerology.rock_pick.tooltip": "Use with the Rock Chisel on veins and nodules to unearth valuables",
+  "tooltip.minerology.raw_dweller_tail.tooltip": "The shell seems too soft, I wouldn't eat it raw...",
+  "tooltip.minerology.roasted_dweller_tail.tooltip": "Eating it fills you with energy",
+  "tooltip.minerology.dweller_tail_carapace.tooltip": "Obtain by eating roasted dweller tail",
 
 
   "creativetab.minerology_tab": "Minerology"

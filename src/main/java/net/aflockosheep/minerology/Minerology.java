@@ -5,6 +5,8 @@ import net.aflockosheep.minerology.block.ModBlocks;
 import net.aflockosheep.minerology.item.ModCreativeModeTabs;
 import net.aflockosheep.minerology.item.ModItems;
 import net.aflockosheep.minerology.loot.ModLootModifiers;
+import net.aflockosheep.minerology.sound.ModSounds;
+import net.aflockosheep.minerology.villager.ModVillagers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -38,6 +40,8 @@ public class Minerology
         ModBlocks.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
+        ModSounds.register(modEventBus);
+        ModVillagers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);

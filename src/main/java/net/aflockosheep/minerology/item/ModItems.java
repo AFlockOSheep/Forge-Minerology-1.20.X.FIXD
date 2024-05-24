@@ -36,7 +36,7 @@ public class ModItems {
     public static final RegistryObject<Item> LEMON_SEEDS = ITEMS.register("lemon_seeds",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DWELLER_TAIL = ITEMS.register("dweller_tail",
-            () -> new Item(new Item.Properties().food(ModFoods.DWELLER_TAIL)));
+            () -> new RawDwellerTailItem(new Item.Properties().food(ModFoods.DWELLER_TAIL)));
     public static final RegistryObject<Item> ROASTED_DWELLER_TAIL = ITEMS.register("roasted_dweller_tail",
             () -> new CarapaceFoodItem(new Item.Properties().food(ModFoods.ROASTED_DWELLER_TAIL).stacksTo(1)));
     public static final RegistryObject<Item> DWELLER_TAIL_CARAPACE = ITEMS.register("dweller_tail_carapace",
@@ -45,7 +45,11 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BUCKET_OF_LEMON_JUICE = ITEMS.register("bucket_of_lemon_juice",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BUCKET_OF_PRIMED_LEMON_JUICE = ITEMS.register("bucket_of_primed_lemon_juice",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BUCKET_OF_CITRIC_ACID = ITEMS.register("bucket_of_citric_acid",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LIME = ITEMS.register("lime",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
@@ -59,6 +63,9 @@ public class ModItems {
             () -> new ShaleArmorItem(ModArmorMaterials.SHALE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> SHALE_BOOTS = ITEMS.register("shale_boots",
             () -> new ShaleArmorItem(ModArmorMaterials.SHALE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> HARDHAT = ITEMS.register("hardhat",
+            () -> new HardhatArmorItem(ModArmorMaterials.HARDHAT, ArmorItem.Type.HELMET, new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

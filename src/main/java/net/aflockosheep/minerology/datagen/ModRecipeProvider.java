@@ -25,6 +25,8 @@ import java.util.function.Consumer;
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
     private static final List<ItemLike> RUBY_SMELTABLES = List.of(ModBlocks.RUBY_ORE.get());
     private static final List<ItemLike> DWELLER_COOKABLES = List.of(ModItems.DWELLER_TAIL.get());
+    private static final List<ItemLike> PRIMED_LEMON_JUICE = List.of(ModItems.BUCKET_OF_PRIMED_LEMON_JUICE.get());
+    private static final List<ItemLike> LIME = List.of(Items.DRIPSTONE_BLOCK);
 
 
     public ModRecipeProvider(PackOutput pOutput) {
@@ -38,6 +40,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         foodSmoking(pWriter, DWELLER_COOKABLES, RecipeCategory.FOOD, ModItems.ROASTED_DWELLER_TAIL.get(), 0.35f, 200, "roasted_dweller_tail");
         oreSmelting(pWriter, DWELLER_COOKABLES, RecipeCategory.FOOD, ModItems.ROASTED_DWELLER_TAIL.get(), 0.35f, 200, "roasted_dweller_tail");
+        foodCampfire(pWriter, DWELLER_COOKABLES, RecipeCategory.FOOD, ModItems.ROASTED_DWELLER_TAIL.get(), 0.35f, 200, "roasted_dweller_tail");
+
+        oreSmelting(pWriter, PRIMED_LEMON_JUICE, RecipeCategory.FOOD, ModItems.BUCKET_OF_CITRIC_ACID.get(), 0.35f, 200, "bucket_of_citric_acid");
+        oreSmelting(pWriter, LIME, RecipeCategory.FOOD, ModItems.LIME.get(), 0.35f, 200, "lime");
 
         genericBlockRecipe(ModBlocks.SHALE_BLOCK, ModItems.SHALE_PLATE, pWriter);
 
@@ -209,6 +215,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     protected static void foodSmoking(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup) {
         oreCooking(pFinishedRecipeConsumer, RecipeSerializer.SMOKING_RECIPE, pIngredients, pCategory, pResult, pExperience, pCookingTime, pGroup, "_from_smoking");
+    }
+
+    protected static void foodCampfire(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup) {
+        oreCooking(pFinishedRecipeConsumer, RecipeSerializer.CAMPFIRE_COOKING_RECIPE, pIngredients, pCategory, pResult, pExperience, pCookingTime, pGroup, "_from_campfire_cooking");
     }
 
 

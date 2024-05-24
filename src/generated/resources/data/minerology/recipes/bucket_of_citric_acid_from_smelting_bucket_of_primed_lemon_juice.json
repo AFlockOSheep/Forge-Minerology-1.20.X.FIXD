@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "group": "bucket_of_citric_acid",
+  "ingredient": {
+    "item": "minerology:bucket_of_primed_lemon_juice"
+  },
+  "result": "minerology:bucket_of_citric_acid"
+}

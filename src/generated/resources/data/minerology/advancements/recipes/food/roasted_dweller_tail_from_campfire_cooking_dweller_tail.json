@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dweller_tail": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minerology:dweller_tail"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minerology:roasted_dweller_tail_from_campfire_cooking_dweller_tail"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_dweller_tail",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minerology:roasted_dweller_tail_from_campfire_cooking_dweller_tail"
+    ]
+  },
+  "sends_telemetry_event": false
+}

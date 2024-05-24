@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minerology:bucket_of_lemon_juice"
+    },
+    "L": {
+      "item": "minerology:lime"
+    },
+    "D": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "D#L",
+    "LLL"
+  ],
+  "result": {
+    "item": "minerology:bucket_of_primed_lemon_juice"
+  },
+  "show_notification": true
+}

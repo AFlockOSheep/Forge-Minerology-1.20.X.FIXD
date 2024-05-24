@@ -3,13 +3,13 @@
   "category": "tools",
   "key": {
     "#": {
-      "tag": "minecraft:wooden_slabs"
+      "item": "minecraft:copper_ingot"
     },
     "I": {
       "item": "minecraft:iron_ingot"
     },
     "O": {
-      "item": "minecraft:orange_dye"
+      "item": "minerology:dweller_tail_carapace"
     }
   },
   "pattern": [
